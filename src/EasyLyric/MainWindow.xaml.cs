@@ -8,6 +8,7 @@ using System.Windows.Documents;
 using System.Windows.Media;
 using System.Windows.Markup;
 using System.Windows.Shapes;
+using Path = System.IO.Path;
 
 namespace EasyLyric
 {
