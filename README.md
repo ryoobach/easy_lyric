@@ -23,4 +23,7 @@ Windows x64 desktop application for silent monitoring of internet radio streams,
 This repository starts with the desktop UI and automated Windows build pipeline. Radio stream reception, song identification, lyric retrieval, score/chord sources, and timing synchronization will be implemented and tested in later milestones.
 
 ## Build
+
+Current repository snapshot: the Windows WPF shell and portable ZIP workflow are present. Radio reception, live song identification, lyric/score retrieval, synchronized highlighting, A4 score pagination/printing, and the final three-note application icon are not yet implemented in this snapshot. A successful build of this snapshot must not be treated as completion of those features.
+
 Open `EasyLyric.sln` in Visual Studio with the .NET Framework 4.8 targeting pack, or run the GitHub Actions workflow. The workflow packages the build output as a ZIP artifact.
